@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="231.0" fitWidth="900.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../images/Nice_La-Plaine_Crosstraining2.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="206.0" layoutY="116.0" text="TRAINING" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="45.0" />
+            </font>
+        </Label>
+        <Label layoutX="36.0" layoutY="116.0" text="CROSS" textFill="#f4c132">
+            <font>
+                <Font name="System Bold" size="45.0" />
+            </font>
+        </Label>
+        <HBox layoutY="231.0" prefHeight="50.0" prefWidth="900.0" style="-fx-background-color: #D6D1DE;">
+            <children>
+                <Label alignment="TOP_CENTER" prefHeight="34.0" prefWidth="900.0" text="CROSS TRAINING">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <HBox layoutY="281.0" prefHeight="46.0" prefWidth="900.0" style="-fx-background-color: #D6D1DE;">
+            <children>
+                <Label alignment="TOP_CENTER" prefHeight="38.0" prefWidth="901.0" text="RÉPÉTEZ, PERSÉVÉREZ ET AMÉLIOREZ" textFill="WHITE">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <VBox layoutX="618.0" layoutY="330.0" prefHeight="275.0" prefWidth="284.0">
+            <children>
+                <ImageView fitHeight="270.0" fitWidth="282.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/shutterstock_713015449-min-890x606.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
+        <Label layoutX="26.0" layoutY="349.0" text="POUR QUI?">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="448.0" text="POUR QUOI?">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Line endX="-14.600006103515625" layoutX="115.0" layoutY="369.0" startX="-89.0" stroke="#f4c132" strokeWidth="2.0" />
+        <Text layoutX="24.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pour toutes les personnes désireuses d’améliorer leurs performances physiques et mentales afin de mieux se dépasser et se surpasser !" wrappingWidth="532.800048828125" />
+        <Text layoutX="17.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Améliorer l’endurance, la vitesse, la force, la puissance." wrappingWidth="545.4945068359375" />
+        <Line endX="-14.600006103515625" layoutX="120.0" layoutY="468.0" startX="-95.0" stroke="#f4c132" strokeWidth="2.0" />
+      <Text layoutX="14.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Améliorer ta coordination et ton équilibre et ainsi effectuer des mouvements plus précis lors de tes entraînements." wrappingWidth="551.5281372070312" />
+      <Text layoutX="14.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Obtenir une meilleure mobilité articulaire." />
+      <Text layoutX="14.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Sculpter et tonifier ton corps." />
+    </children>
+</AnchorPane>

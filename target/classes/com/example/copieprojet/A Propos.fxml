@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #3d4550;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.copieprojet.AproposController">
+    <children>
+        <Pane layoutY="-3.0" prefHeight="34.0" prefWidth="900.0" style="-fx-background-color: #F4C132;">
+            <children>
+                <Label alignment="TOP_CENTER" layoutX="194.0" layoutY="10.0" prefHeight="17.0" prefWidth="485.0" text="Offre NOeL-- Sur 1 Abonnement 3 Seances Gratuites au Choix">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+                <ImageView fitHeight="34.0" fitWidth="29.0" layoutX="130.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/266480787_312896093878027_570046472686793697_n.png" />
+                    </image>
+                </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="34.0" layoutX="718.0" layoutY="4.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../../../images/266480787_312896093878027_570046472686793697_n.png" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutY="669.0" prefHeight="34.0" prefWidth="900.0" style="-fx-background-color: #F4C132;">
+            <children>
+                <Label layoutX="211.0" layoutY="7.0" prefHeight="17.0" prefWidth="95.0" style="-fx-text-fill: black;" text="07 71 63 09 55" />
+                <ImageView fitHeight="28.0" fitWidth="41.0" layoutX="730.0" layoutY="4.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/265684599_203014762012146_8174416141289903245_n.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="28.0" fitWidth="29.0" layoutX="787.0" layoutY="1.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/264348633_948895535985579_7001754480117862121_n.png" />
+                    </image></ImageView>
+                <ImageView fitHeight="29.0" fitWidth="41.0" layoutX="840.0" layoutY="3.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/264657616_606292104016057_8057689073408494768_n.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="29.0" fitWidth="41.0" layoutX="148.0" layoutY="3.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/264132851_5476622839019451_5015475561662119331_n.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="34.0" fitWidth="50.0" layoutX="341.0" layoutY="1.0" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@../../../images/264657614_471930244355356_5651075716317683947_n.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="428.0" layoutY="8.0" prefHeight="20.0" prefWidth="245.0" style="-fx-text-fill: black;" text="Contact-FitnessPark@fitnesspark.fr">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="20.0" layoutY="9.0" text="Contactez Nous" textFill="#3d4550">
+               <font>
+                  <Font name="Arial Narrow Bold" size="15.0" />
+               </font>
+            </Label>
+            <Line endX="80.60001373291016" layoutX="44.0" layoutY="28.0" startX="-30.900005340576172" stroke="#3d454f" strokeWidth="3.0" />
+            </children>
+        </Pane>
+        <VBox layoutX="614.0" layoutY="412.0" prefHeight="220.0" prefWidth="254.0" style="-fx-border-radius: 50px; -fx-background-color: transparent; -fx-background-radius: 20px;">
+            <children>
+                <Pane prefHeight="200.0" prefWidth="210.0" style="-fx-border-color: #FCDB0B; -fx-border-radius: 50px; -fx-background-radius: 50px;">
+                    <children>
+                        <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="14.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../images/265160245_5015818271776277_6196143601743329586_n.png" />
+                            </image>
+                        </ImageView>
+                        <Label alignment="TOP_CENTER" layoutX="53.0" layoutY="12.0" prefHeight="17.0" prefWidth="142.0" style="-fx-text-fill: white;" text="Abonnement -- Tarifs">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                    </children></Pane>
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FCDB0B; -fx-border-radius: 50px;">
+                    <children>
+                        <Label alignment="TOP_CENTER" layoutX="24.0" layoutY="11.0" prefHeight="17.0" prefWidth="194.0" style="-fx-text-fill: white;" text="    Par Semaine --- 40 DT">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                    </children></Pane>
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #FCDB0B; -fx-border-radius: 50px; -fx-background-radius: 50px;">
+                    <children>
+                        <Label alignment="TOP_CENTER" layoutX="11.0" layoutY="12.0" prefHeight="17.0" prefWidth="208.0" style="-fx-text-fill: white;" text="   Par mois --- 120 DT">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                    </children></Pane>
+                <Pane prefHeight="200.0" prefWidth="170.0" style="-fx-border-color: #FCDB0B; -fx-border-radius: 50px; -fx-background-radius: 50px;">
+                    <children>
+                        <Label alignment="TOP_CENTER" layoutX="20.0" layoutY="12.0" prefHeight="17.0" prefWidth="194.0" style="-fx-text-fill: white;" text="  Par Heure --- 7 DT">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                    </children></Pane>
+            </children>
+        </VBox>
+        <ImageView fitHeight="270.0" fitWidth="527.0" layoutX="348.0" layoutY="111.0" pickOnBounds="true" smooth="false">
+            <image>
+                <Image url="@../../../images/imageonline-co-roundcorner(1).png" />
+            </image>
+        </ImageView>
+        <Label alignment="TOP_CENTER" layoutX="12.0" layoutY="136.0" prefHeight="58.0" prefWidth="280.0" style="-fx-text-fill: white;" text="SALLE DE SPORT  ">
+            <font>
+                <Font name="Agency FB" size="36.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="254.0" prefHeight="23.0" prefWidth="262.0" style="-fx-text-fill: #FCDB0B;" text=" CARDIO, CROSS-TRAINING ">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+        <Label layoutX="97.0" layoutY="323.0" prefHeight="23.0" prefWidth="238.0" style="-fx-text-fill: #FCDB0B;" text=" BOXE EN ACCÈS ILLIMITÉ">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+        <Label layoutX="120.0" layoutY="286.0" style="-fx-text-fill: #FCDB0B;" text="&amp; ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="250.0" fitWidth="316.0" layoutX="19.0" layoutY="387.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../images/imageonline-co-roundcorner2.png" />
+         </image>
+      </ImageView>
+          <Pane layoutX="298.0" layoutY="386.0" prefHeight="250.0" prefWidth="245.0" style="-fx-background-color: white;">
+              <children>
+                  <Label layoutX="50.0" layoutY="17.0" prefHeight="21.0" prefWidth="159.0" text=" Ouvert : 7 jours par semaine" />
+                  <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="11.0" layoutY="11.0" pickOnBounds="true" smooth="false">
+                      <image>
+                          <Image url="@../../../images/266325405_381439687070396_37707896225329102_n.png" />
+                      </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" layoutX="50.0" layoutY="69.0" prefHeight="17.0" prefWidth="159.0" text="Lundi-Vendredi:  7h-23h" />
+                  <Label alignment="TOP_CENTER" layoutX="50.0" layoutY="109.0" prefHeight="17.0" prefWidth="159.0" text="Samedi-Dimanche: 9h-21h" />
+                  <ImageView fitHeight="40.0" fitWidth="41.0" layoutX="6.0" layoutY="77.0" pickOnBounds="true" smooth="false">
+                      <image>
+                          <Image url="@../../../images/265480611_632067601558637_6936171975102863805_n.png" />
+                      </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="10.0" layoutY="160.0" pickOnBounds="true" smooth="false">
+                      <image>
+                          <Image url="@../../../images/264495758_484714396314132_5075517934238276351_n.png" />
+                      </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" layoutX="94.0" layoutY="185.0" prefHeight="28.0" prefWidth="69.0" text="Tunis" />
+                  <Label layoutX="54.0" layoutY="152.0" prefHeight="34.0" prefWidth="149.0" text="Rue El Hsinet Montplaisir " />
+              </children>
+          </Pane>
+      <HBox layoutY="32.0" prefHeight="71.0" prefWidth="900.0" style="-fx-background-color: #3d4550;">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="80.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../../../images/dc6398a0d3b35d993ef8954610333ca294c3ee4a.png" />
+               </image>
+            </ImageView>
+            <AnchorPane prefHeight="72.0" prefWidth="154.0">
+               <children>
+                  <MenuButton alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="20.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="137.0" style="-fx-background-color: #3d4550;" text="  Activités" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <items>
+                        <MenuItem fx:id="ActMusculation" mnemonicParsing="false" onAction="#MusculationAction" text="Musculation" />
+                        <MenuItem fx:id="Cardio_Training" mnemonicParsing="false" onAction="#Cardio_TrainingAction" text="Cardio-Training" />
+                        <MenuItem fx:id="crossTraining" mnemonicParsing="false" onAction="#crossTrainingAction" text="Cross-Training" />
+                        <MenuItem fx:id="coursCollectifs" mnemonicParsing="false" onAction="#coursCollectifsAction" text="Cours Collectifs" />
+                     </items>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+            <Button fx:id="AdhBtn" mnemonicParsing="false" onAction="#AdherantAction" prefHeight="72.0" prefWidth="148.0" stylesheets="@css2.CSS" text="Espace Adhérant" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="EntrBtn" mnemonicParsing="false" onAction="#EntraineurAction" prefHeight="72.0" prefWidth="158.0" stylesheets="@css2.CSS" text="Espace Entraineur" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="factBtn" mnemonicParsing="false" onAction="#FactureAction" prefHeight="72.0" prefWidth="138.0" stylesheets="@css2.CSS" text="Espace Facture" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="CnxBtn" mnemonicParsing="false" onAction="#ConnexionAction" prefHeight="72.0" prefWidth="126.0" stylesheets="@css2.CSS" text="Deconnexion" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="homeBtn" mnemonicParsing="false" onAction="#homee" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="64.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/265197597_4473934205988052_2712140267679218492_n.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <Label alignment="TOP_CENTER" layoutX="37.0" layoutY="194.0" prefHeight="58.0" prefWidth="280.0" style="-fx-text-fill: white;" text="DE HAUTE GAMME">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="144.0" layoutY="180.0" startX="-93.59999084472656" stroke="#f4c132" />
+      <Line endX="100.0" layoutX="177.0" layoutY="236.0" startX="-100.0" stroke="#f4c132" />
+    </children>
+</AnchorPane>

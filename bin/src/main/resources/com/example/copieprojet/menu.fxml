@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="698.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d4550" height="564.0" layoutX="26.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 80; -fx-arc-width: 80;" width="638.0" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="50.0" />
+      <Label alignment="TOP_CENTER" layoutX="52.0" layoutY="214.0" prefHeight="47.0" prefWidth="265.0" text="Menu:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed Light" size="33.0" />
+         </font>
+      </Label>
+      <Line endX="17.39996337890625" layoutX="218.0" layoutY="260.0" startX="-84.99996948242188" stroke="#f4c132" strokeWidth="2.0" />
+      <Button layoutX="479.0" layoutY="528.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="151.0" style="-fx-background-color: #F4C132; -fx-background-radius: 2em;" text="Déconnexion" textFill="WHITE" />
+      <Button layoutX="132.0" layoutY="282.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="209.0" style="-fx-background-color: #F4C132; -fx-background-radius: 2em;" text="Entraineurs" textAlignment="RIGHT" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="76.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/personal-trainer.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="132.0" layoutY="392.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="209.0" style="-fx-background-color: #F4C132; -fx-background-radius: 2em;" text=" Adhérants" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="86.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/410373-200.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="345.0" layoutY="282.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="209.0" style="-fx-background-color: #F4C132; -fx-background-radius: 2em;" text="   Paiements" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="87.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/133746-200.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="345.0" layoutY="392.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="209.0" style="-fx-background-color: #F4C132; -fx-background-radius: 2em;" text="        A Propos" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="70.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/about-us-22.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <HBox alignment="TOP_CENTER" layoutX="122.0" layoutY="71.0" prefHeight="47.0" prefWidth="518.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="26.0" style="-fx-background-color: #F4C132;" text="Espace Adhérants" />
+            <Button mnemonicParsing="false" prefHeight="26.0" style="-fx-background-color: #F4C132;" text="Espace Entraineurs" />
+            <Button mnemonicParsing="false" prefHeight="26.0" style="-fx-background-color: #F4C132;" text="Les Paiements" />
+            <Button mnemonicParsing="false" prefHeight="26.0" style="-fx-background-color: #F4C132;" text="Contact" />
+            <Button mnemonicParsing="false" prefHeight="26.0" style="-fx-background-color: #F4C132;">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/exit-image-icon-7.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <Label alignment="TOP_CENTER" layoutX="79.0" layoutY="147.0" prefHeight="58.0" prefWidth="518.0" text="Système de Gestion de salle de sport " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="58.0" fitWidth="71.0" layoutX="64.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/dc6398a0d3b35d993ef8954610333ca294c3ee4a.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

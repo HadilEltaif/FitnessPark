@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #D6D1DE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label alignment="TOP_CENTER" layoutX="393.0" layoutY="14.0" prefHeight="66.0" prefWidth="290.0" text="COLLECTIFS" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="45.0" />
+            </font>
+        </Label>
+        <Label layoutX="19.0" layoutY="152.0" text="POUR QUI?">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="459.0" layoutY="420.0" text="POUR QUOI?">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Line endX="-14.600006103515625" layoutX="108.0" layoutY="180.0" startX="-89.0" stroke="#f4c132" strokeWidth="2.0" />
+        <Text layoutX="18.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pour tous ! La variété des cours proposés par Fitness Park te permettra de t’entraîner à ton gré, à ton rythme et selon tes envies. Ce sont plus de 140 cours par semaine qui sont mis à ta disposition : renforcement musculaire (abdos, abdos-fessiers, cours LesMills), cardio-training (step, gym-cardio…), yoga, pilate, stretching… Découvre-les et fais ton choix. Tu ne pourras plus t’en passer !" wrappingWidth="405.60003662109375" />
+        <Text layoutX="450.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le cardio training t’aidera également à :Perdre du poids : Tu brûles de nombreuses calories, diminues ta masse graisseuse, augmentes ta masse musculaire. Ton indice de masse corporelle (IMC) se rééquilibrera.Tonifier ton corps : ta silhouette se sculpte au fur et à mesure des efforts et des exercices.Améliorer ta coordination, ton équilibre et tes réflexes.Prévenir les maladies cardio-vasculairesTe préparer à des exercices plus intenses." wrappingWidth="437.4945068359375" />
+        <Line endX="-14.600006103515625" layoutX="556.0" layoutY="440.0" startX="-95.0" stroke="#f4c132" strokeWidth="2.0" />
+        <Label alignment="TOP_CENTER" layoutX="214.0" layoutY="14.0" prefHeight="66.0" prefWidth="202.0" text="COURS " textFill="#f4c132">
+            <font>
+                <Font name="System Bold" size="45.0" />
+            </font>
+        </Label>
+          <Label alignment="TOP_CENTER" layoutX="-1.0" layoutY="80.0" prefHeight="38.0" prefWidth="901.0" style="-fx-background-color: #3d4550;" text="BOUGEZ, BRÛLEZ ET TRANSPIREZ" textFill="WHITE">
+              <font>
+                  <Font size="35.0" />
+              </font>
+          </Label>
+      <ImageView fitHeight="249.0" fitWidth="419.0" layoutX="459.0" layoutY="143.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../images/Cours-Collectifs-n°3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="249.0" fitWidth="419.0" layoutX="19.0" layoutY="337.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../images/Cours-Collectifs-n°1.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

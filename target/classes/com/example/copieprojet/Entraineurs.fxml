@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="524.0" prefWidth="945.0" style="-fx-background-color: #3d4550;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.copieprojet.EntraineurController">
+    <children>
+        <VBox layoutX="21.0" layoutY="133.0" prefHeight="306.0" prefWidth="61.0" spacing="13.0">
+            <children>
+                <Label lineSpacing="10.0" text="ID" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="Nom" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="Prenom" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="NumCin" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="Email" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="Adresse" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+                <Label text="Poids" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="Taille" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label text="Sexe" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+                <Label prefHeight="17.0" prefWidth="128.0" text="activité" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            </children>
+        </VBox>
+        <VBox layoutX="99.0" layoutY="133.0" prefHeight="295.0" prefWidth="86.0" spacing="5.0">
+            <children>
+                <TextField fx:id="id" />
+                <TextField fx:id="nom" />
+                <TextField fx:id="prenom" />
+                <TextField fx:id="cin" />
+                <TextField fx:id="email" />
+                <TextField fx:id="adr" />
+                <TextField fx:id="poids" />
+                <TextField fx:id="taille" />
+                <TextField fx:id="sexe" />
+                <TextField fx:id="activite" />
+            </children>
+        </VBox>
+        <TableView fx:id="tableEntr" layoutX="226.0" layoutY="107.0" onMouseClicked="#getSelected" prefHeight="352.0" prefWidth="654.0">
+            <columns>
+                <TableColumn fx:id="col_id" prefWidth="46.0" text="ID" />
+                <TableColumn fx:id="col_nom" prefWidth="52.0" text="Nom" />
+                <TableColumn fx:id="col_prenom" prefWidth="56.0" text="Prenom" />
+                <TableColumn fx:id="col_numcin" prefWidth="53.0" text="NumCin" />
+                <TableColumn fx:id="col_email" prefWidth="58.0" text="Email" />
+                <TableColumn fx:id="col_adresse" prefWidth="56.0" text="Adresse" />
+                <TableColumn fx:id="col_poids" prefWidth="56.0" text="Poids" />
+                <TableColumn fx:id="col_taille" prefWidth="56.0" text="Taille" />
+                <TableColumn fx:id="col_sexe" prefWidth="56.0" text="Sexe" />
+                <TableColumn fx:id="col_activite" prefWidth="56.0" text="Activité" />
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+        </TableView>
+        <Button fx:id="ajouter" layoutX="259.0" layoutY="470.0" mnemonicParsing="false" onAction="#ajouterEntr" prefHeight="32.0" prefWidth="110.0" stylesheets="@MenuButton.css" text="Ajouter">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="supprimer" layoutX="580.0" layoutY="471.0" mnemonicParsing="false" onAction="#supprimerEntr" prefHeight="32.0" prefWidth="110.0" stylesheets="@MenuButton.css" text="Supprimer">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="modifier" layoutX="426.0" layoutY="471.0" mnemonicParsing="false" onAction="#modifierEntr" prefHeight="32.0" prefWidth="110.0" stylesheets="@MenuButton.css" text="Modifier">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+      <Label alignment="TOP_CENTER" layoutX="185.0" layoutY="25.0" prefHeight="48.0" prefWidth="430.0" text="Espace Entraineur" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="62.0" layoutX="21.0" layoutY="11.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../images/dc6398a0d3b35d993ef8954610333ca294c3ee4a.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="homBtn" layoutX="841.0" layoutY="17.0" mnemonicParsing="false" onAction="#homee" style="-fx-background-color: transparent;" stylesheets="@MenuButton.css">
+         <graphic>
+            <ImageView fx:id="hmbtn" fitHeight="55.0" fitWidth="62.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../images/265197597_4473934205988052_2712140267679218492_n.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fx:id="refreshbtn" fitHeight="39.0" fitWidth="50.0" layoutX="727.0" layoutY="466.0" onMouseClicked="#refreshAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/10515_refresh_yellow_icon.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="filterField" alignment="TOP_CENTER" layoutX="580.0" layoutY="53.0" promptText="rechercher" />
+      <Button fx:id="imprimerBtn" layoutX="795.0" layoutY="467.0" mnemonicParsing="false" onAction="#imprimerAction" prefHeight="48.0" prefWidth="64.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="48.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/265437358_423272202616578_4920207415393002757_n.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Line endX="145.60003662109375" endY="-7.62939453125E-6" layoutX="400.0" layoutY="73.0" startX="-147.2000274658203" startY="-7.62939453125E-6" stroke="#f4c132" strokeWidth="3.0" />
+      <Button fx:id="filter" layoutX="747.0" layoutY="53.0" mnemonicParsing="false" onAction="#filterAction" text="rechercher" />
+    </children>
+</AnchorPane>
